@@ -1,0 +1,16 @@
+.wrapper {
+  display: grid;
+  grid-template-areas: "h h" "s c";
+  grid-template-rows: 60px 1fr;
+  grid-template-columns: 1fr 5fr;
+
+}
+.header {
+  grid-area: h;
+}
+.content {
+  grid-area: c;
+}
+.sidebar {
+  grid-area: s;
+}

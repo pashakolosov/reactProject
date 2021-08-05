@@ -1,0 +1,23 @@
+a {
+  text-decoration: none;
+  width: 100%;
+  display: flex;
+  color:ivory
+}
+
+.icon {
+  display: block;
+  min-width: 60px;
+  line-height: 60px;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.title {
+  padding-left: 10px;
+  line-height: 60px;
+  white-space: normal;
+}
+
+
+

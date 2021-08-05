@@ -1,0 +1,22 @@
+.nav {
+  background: #4d5bf9;
+  padding: 40px 5px;
+  width: 300px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  transition: all .5s ease;
+}
+
+.list {
+  padding: 5px;
+  margin: 0;
+  width: 100%;
+  list-style: none;
+}
+
+.active {
+  background: #e0ffff;  
+  border-top-left-radius: 20px;  
+  border-bottom-left-radius: 20px;  
+  color:black
+}
