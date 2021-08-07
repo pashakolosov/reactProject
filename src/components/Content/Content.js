@@ -13,7 +13,20 @@ import Video from './Video/Video'
 
 const Content = () => {
   return (
-    <div className="content" style={{background: "#e0ffff", height: "100vh"}}>content</div>
+    <div className="content" style={{background: "#e0ffff", height: "100vh"}}>
+      <Community />
+      <Friends />
+      <Games />
+      <Home />
+      <Messages />
+      <Music />
+      <News />
+      <Photo />
+      <PublicWall />
+      <Question />
+      <ToDo />
+      <Video />
+    </div>
   )
 }
 

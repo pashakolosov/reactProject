@@ -16,7 +16,6 @@ const Sidebar_link = (props) => {
 
 document.addEventListener('DOMContentLoaded', () => {
   let list = document.querySelectorAll(`.${s.list}`)
-  console.log(list)
 
   for (let i = 0; i < list.length; i++) {
     const element = list[i];
