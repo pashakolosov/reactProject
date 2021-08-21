@@ -1,6 +1,6 @@
 const Friends = () => {
   return (
-    <div style={{background:"orange"}}>
+    <div style={{background:"#eeeeee"}}>
       Friends
     </div>
   )

@@ -1,3 +1,4 @@
+import React from 'react'
 import Community from './Community/Community'
 import Friends from './Friends/Friends'
 import Games from './Games/Games'
@@ -12,22 +13,34 @@ import ToDo from './ToDo/ToDo'
 import Video from './Video/Video'
 
 const Content = () => {
-  return (
-    <div className="content" style={{background: "#e0ffff", height: "100vh"}}>
-      <Community />
-      <Friends />
-      <Games />
-      <Home />
-      <Messages />
-      <Music />
-      <News />
-      <Photo />
-      <PublicWall />
-      <Question />
-      <ToDo />
-      <Video />
-    </div>
-  )
+  let page = 'friends'
+
+  switch (page) {
+    case 'community':
+      return <Community />
+    case 'friends': 
+      return <Friends />
+    case 'games': 
+      return <Games />
+    case 'messages': 
+      return <Messages />
+    case 'music': 
+      return <Music />
+    case 'news': 
+      return <News />
+    case 'photo': 
+      return <Photo />
+    case 'publickwall': 
+      return <PublicWall />
+    case 'question': 
+      return <Question />
+    case 'todo': 
+      return <ToDo />
+    case 'video': 
+      return <Video />
+    default: 
+      return <Home />
+  }
 }
 
 export default Content;

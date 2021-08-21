@@ -15,7 +15,7 @@ const Sidebar = () => {
           <SidebarLink title="music" icon="musical-notes-outline" />
           <SidebarLink title="video" icon="videocam-outline" />
           <SidebarLink title="games" icon="game-controller-outline" />
-          <SidebarLink title="to do" icon="document-text-outline" />
+          <SidebarLink title="todo" icon="document-text-outline" />
           <SidebarLink title="public wall" icon="brush-outline" />
           <SidebarLink title="question" icon="help-outline" />
         </ul>

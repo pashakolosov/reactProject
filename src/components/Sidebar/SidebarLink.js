@@ -1,10 +1,10 @@
 import s from './SidebarLink.module.css'
 import sl from './Sidebar.module.css'
 
-const Sidebar_link = (props) => {
+const Sidebar_link = (props) => {  
   return (
       <li>
-        <a href="f#" className={`${s.list} ${ props.styleName }`}>
+        <a href="f#" className={`${s.list} ${ props.styleName }`} >
           <span className={s.icon}>
             <ion-icon name={props.icon}></ion-icon>
           </span>

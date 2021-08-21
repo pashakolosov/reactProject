@@ -1,0 +1,6 @@
+.iconButton:hover {
+  cursor: pointer;
+}
+.iconButton:active {
+  background-color: #cccccc;
+}
