@@ -3,14 +3,14 @@ import sl from './Sidebar.module.css'
 
 const Sidebar_link = (props) => {  
   return (
-      <li>
+      <div>
         <a href="f#" className={`${s.list} ${ props.styleName }`} >
           <span className={s.icon}>
             <ion-icon name={props.icon}></ion-icon>
           </span>
           <span className={s.title}>{props.title}</span>
         </a>
-      </li>
+      </div>
   )
 }
 
