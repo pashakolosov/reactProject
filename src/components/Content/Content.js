@@ -13,7 +13,7 @@ import ToDo from './ToDo/ToDo'
 import Video from './Video/Video'
 
 const Content = () => {
-  let page = 'friends'
+  let page = 'news'
 
   switch (page) {
     case 'community':

@@ -6,7 +6,7 @@ import HeaderNavProfile from './HeaderNavProfile/HeaderNavProfile'
 
 const Header = () => {
   return (
-    <div className="header" style={{listStyle: 'none', height: "100%", display: 'flex', justifyContent: 'space-around'}}>
+    <div className="header" style={{listStyle: 'none', backgroundColor: '#fff ', height: "100%", display: 'flex', justifyContent: 'space-around'}}>
       <HeaderNavLogo />
       <HeaderNavSearch />
       <HeaderNavBell />

@@ -1,0 +1,29 @@
+.playerContent{
+  display: flex;
+  width: 380px;
+}
+
+.icon{
+  width: 22px;
+  height: 22px;
+  padding: 9px;
+  font-size: 22px;
+  color: #444;
+  cursor: pointer;
+}
+.icon:hover{
+  color: black;
+}
+
+.player{ 
+  display: flex;
+  margin: 10px 10px 0 0;
+}
+.songTitle{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 18px;
+  color: #444;
+}
+
