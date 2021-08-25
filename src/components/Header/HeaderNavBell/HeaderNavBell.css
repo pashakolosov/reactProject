@@ -1,6 +1,13 @@
 .iconButton:hover {
   cursor: pointer;
 }
+.bell{
+  font-size: 28px;
+  transition: font-size .2s;
+}
+.bell:hover{
+  font-size: 34px;
+}
 .iconButton:active {
   background-color: #cccccc;
 }

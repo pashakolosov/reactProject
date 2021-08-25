@@ -3,7 +3,6 @@ import s from './Sidebar.module.css'
 
 const Sidebar = () => {
   return (
-    <div className="sidebar">
       <div className={s.nav}>
         <ul className={s.list}>
           <SidebarLink title="news" icon="newspaper-outline" styleName={s.active} />
@@ -20,7 +19,6 @@ const Sidebar = () => {
           <SidebarLink title="question" icon="help-outline" />
         </ul>
       </div>
-    </div>
   )
 }
 
